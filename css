@@ -1,0 +1,206 @@
+[css.css](https://github.com/user-attachments/files/32319154/css.css)
+/* =========================================================
+   RESET BÁSICO
+   Seletor universal (*) — aula: Estrutura de CSS / Seletor Universal
+   ========================================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Seletor de tipo (aula: Seletores de Tipos) */
+body {
+    font-family: "Segoe UI", Verdana, Arial, sans-serif;
+    color: #111827;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* =========================================================
+   FORMAS DECORATIVAS DE FUNDO
+   Uso de position + border-radius + opacity (aulas: Posicionamento / Transparência)
+   ========================================================= */
+.forma {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #2563eb;
+    opacity: 0.08;
+    z-index: 1;
+}
+
+.forma--1 {
+    width: 420px;
+    height: 420px;
+    top: -160px;
+    left: -160px;
+}
+
+.forma--2 {
+    width: 420px;
+    height: 420px;
+    bottom: -180px;
+    right: -180px;
+}
+
+/* =========================================================
+   PÁGINA / CENTRALIZAÇÃO COM FLEXBOX
+   ========================================================= */
+.pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 40px 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================================
+   CARTÃO PRINCIPAL
+   ========================================================= */
+.cartao {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px #e5e7eb;
+    padding: 56px 44px;
+    max-width: 440px;
+    text-align: center;
+}
+
+.cartao__foto {
+    display: flex;
+    justify-content: center;
+}
+
+.cartao__foto img {
+    border-radius: 18px;
+    margin-bottom: 24px;
+}
+
+.cartao h1 {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+
+.cartao h2 {
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: #2563eb;
+    margin-bottom: 28px;
+}
+
+.cartao__sobre {
+    color: #6b7280;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.cartao__email {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+/* =========================================================
+   BLOCOS: ESCOLARIDADE, LAZER E HABILIDADES
+   Borda lateral fina como destaque (aula: Bordas)
+   ========================================================= */
+.cartao__bloco {
+    text-align: left;
+    border-left: 3px solid #2563eb;
+    padding: 2px 0 2px 18px;
+    margin-bottom: 26px;
+}
+
+.cartao__bloco h3 {
+    color: #111827;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.cartao__bloco p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/* Lista de habilidades em formato de tags (Flexbox) */
+.cartao__tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.tag {
+    background-color: #f1f5f9;
+    color: #111827;
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-size: 0.85rem;
+    margin: 4px 8px 4px 0;
+}
+
+/* =========================================================
+   BOTÕES DE CONTATO
+   ========================================================= */
+.cartao__links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botao {
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #111827;
+    font-size: 0.9rem;
+    margin: 6px;
+}
+
+.botao--primario {
+    background-color: #111827;
+    border: 1px solid #111827;
+    color: #ffffff;
+}
+
+.botao--primario:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.botao--secundario {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    color: #111827;
+}
+
+.botao--secundario:hover {
+    background-color: #111827;
+    border-color: #111827;
+    color: #ffffff;
+}
+
+/* =========================================================
+   RODAPÉ
+   ========================================================= */
+.rodape {
+    text-align: center;
+    padding: 20px 0 30px;
+    color: #9ca3af;
+    font-size: 0.85rem;
+    position: relative;
+    z-index: 2;
+}
