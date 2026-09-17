@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Meta tags do cabeçalho (aula: Meta tags do cabeçalho) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfólio pessoal de Rafael Costacurta Fuzeto, estudante de Sistemas de Informação na Unoeste.">
     <meta name="author" content="Rafael Costacurta Fuzeto">
     <title>Rafael Costacurta Fuzeto | Portfólio</title>
 
-    <!-- Estilo Importado (CSS Externo) -->
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
 
-    <!-- Formas decorativas de fundo: divs posicionadas com "position" -->
     <div class="forma forma--1"></div>
     <div class="forma forma--2"></div>
 
-    <!-- Tag semântica HTML5: main -->
     <main class="pagina">
-
-        <!-- Tag semântica HTML5: section -->
+>
         <section class="cartao">
-
-            <!-- Elemento HTML5 <figure> + <figcaption> para a foto -->
             <figure class="cartao__foto">
-                <img src="WhatsApp Image 2026-09-11 at 00.53.43.jpeg" alt="Foto de Rafael Costacurta Fuzeto" width="200">
+                <img src="img/foto-rafael.jpg" alt="Foto de Rafael Costacurta Fuzeto" width="200">
             </figure>
 
             <h1>Rafael Costacurta Fuzeto</h1>
@@ -37,13 +30,11 @@
                 habilidades e adquirir novos conhecimentos.
             </p>
 
-            <!-- Bloco: Escolaridade -->
             <div class="cartao__bloco">
                 <h3>Escolaridade</h3>
                 <p>Ensino Médio concluído — Colégio Maximus Presidente Bernardes</p>
             </div>
 
-            <!-- Bloco: Lazer -->
             <div class="cartao__bloco">
                 <h3>Lazer</h3>
                 <p>
@@ -52,7 +43,6 @@
                 </p>
             </div>
 
-            <!-- Bloco: Habilidades, usando lista (ul/li) e Flexbox para as tags -->
             <div class="cartao__bloco">
                 <h3>Habilidades</h3>
                 <ul class="cartao__tags">
@@ -62,10 +52,10 @@
                 </ul>
             </div>
 
-            <!-- E-mail em texto simples (sem link) -->
+         
             <p class="cartao__email">📧 fuzetorafael86@gmail.com</p>
 
-            <!-- Links de contato -->
+            
             <div class="cartao__links">
                 <a href="https://instagram.com/rafael_c_fuzeto" target="_blank" class="botao botao--secundario">📷 Instagram</a>
             </div>
@@ -74,7 +64,7 @@
 
     </main>
 
-    <!-- Tag semântica HTML5: footer -->
+   
     <footer class="rodape">
         <p>&copy; 2026 Rafael Costacurta Fuzeto</p>
     </footer>
