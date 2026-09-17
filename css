@@ -1,14 +1,9 @@
-[css.css](https://github.com/user-attachments/files/32319154/css.css)
-/* =========================================================
-   RESET BÁSICO
-   Seletor universal (*) — aula: Estrutura de CSS / Seletor Universal
-   ========================================================= */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Seletor de tipo (aula: Seletores de Tipos) */
+
 body {
     font-family: "Segoe UI", Verdana, Arial, sans-serif;
     color: #111827;
@@ -28,10 +23,7 @@ img {
     display: block;
 }
 
-/* =========================================================
-   FORMAS DECORATIVAS DE FUNDO
-   Uso de position + border-radius + opacity (aulas: Posicionamento / Transparência)
-   ========================================================= */
+
 .forma {
     position: absolute;
     border-radius: 50%;
@@ -54,9 +46,7 @@ img {
     right: -180px;
 }
 
-/* =========================================================
-   PÁGINA / CENTRALIZAÇÃO COM FLEXBOX
-   ========================================================= */
+
 .pagina {
     display: flex;
     justify-content: center;
@@ -67,9 +57,7 @@ img {
     z-index: 2;
 }
 
-/* =========================================================
-   CARTÃO PRINCIPAL
-   ========================================================= */
+
 .cartao {
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
@@ -113,10 +101,7 @@ img {
     margin-bottom: 20px;
 }
 
-/* =========================================================
-   BLOCOS: ESCOLARIDADE, LAZER E HABILIDADES
-   Borda lateral fina como destaque (aula: Bordas)
-   ========================================================= */
+
 .cartao__bloco {
     text-align: left;
     border-left: 3px solid #2563eb;
@@ -135,7 +120,7 @@ img {
     line-height: 1.7;
 }
 
-/* Lista de habilidades em formato de tags (Flexbox) */
+
 .cartao__tags {
     display: flex;
     flex-wrap: wrap;
@@ -151,9 +136,7 @@ img {
     margin: 4px 8px 4px 0;
 }
 
-/* =========================================================
-   BOTÕES DE CONTATO
-   ========================================================= */
+
 .cartao__links {
     display: flex;
     justify-content: center;
@@ -193,9 +176,7 @@ img {
     color: #ffffff;
 }
 
-/* =========================================================
-   RODAPÉ
-   ========================================================= */
+
 .rodape {
     text-align: center;
     padding: 20px 0 30px;
